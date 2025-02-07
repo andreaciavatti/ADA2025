@@ -25,6 +25,6 @@ spec:
         - name: PROJECT_ID
           value: ada2025-450207  # use your project id
         - name: MODEL_REPO
-          value: ada2025_models # use your GCP bucket id
+          value: ada2025_models_ciavatti # use your GCP bucket id
         - name: MODEL_NAME
           value: model.h5
