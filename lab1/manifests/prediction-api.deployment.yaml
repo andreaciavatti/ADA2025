@@ -16,7 +16,7 @@ spec:
         app: prediction-api
     spec:
       containers:
-      - image: us-central1-docker.pkg.dev/ada2025-449714/labrepo/prediction-api:0.0.1 # Docker image name, that we pushed to GCR - use your project id, location, and repository
+      - image: us-central1-docker.pkg.dev/ada2025-450207/labrepo/prediction-api:0.0.1 # Docker image name, that we pushed to GCR - use your project id, location, and repository
         name: prediction-api
         ports:
         - containerPort: 5000
