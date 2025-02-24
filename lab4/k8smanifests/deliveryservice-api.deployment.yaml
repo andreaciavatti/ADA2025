@@ -16,7 +16,7 @@ spec:
         app: deliveryservice-api
     spec:
       containers:
-      - image: us-central1-docker.pkg.dev/ada2025-449714/labrepo/deliveryservice-bq-api:0.0.1 # Docker image name, that we pushed to Artifact registry - use your project id, location, etc
+      - image: us-central1-docker.pkg.dev/ada2025-450207/labrepo/deliveryservice-bq-api:0.0.1 # Docker image name, that we pushed to Artifact registry - use your project id, location, etc
         name: deliveryservice-api
         imagePullPolicy: "Always"
         ports:
@@ -24,4 +24,4 @@ spec:
           protocol: TCP
         env:
         - name: DB_URL
-          value: bigquery://ada2025-449714/deliverydb  # use your project id/ bigquery db url
+          value: bigquery://ada2025-450207/deliverydb  # use your project id/ bigquery db url
