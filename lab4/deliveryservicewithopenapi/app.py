@@ -3,6 +3,7 @@ import os
 
 import connexion
 from connexion.resolver import RestyResolver
+# do not remove these imports - see https://stackoverflow.com/questions/44941757/sqlalchemy-exc-operationalerror-sqlite3-operationalerror-no-such-table
 from resources.delivery import Delivery
 from resources.status import Status
 from db import Base, engine
