@@ -21,6 +21,12 @@
           "deny": [],
           "mapping": {
             "unit_price": "uprice"
+          },
+          "extra_config": {
+            "qos/ratelimit/proxy": {
+              "max_rate": 3,
+              "capacity": 3
+            }
           }
         },
         {
