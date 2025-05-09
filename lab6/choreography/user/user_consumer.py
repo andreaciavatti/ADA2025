@@ -44,7 +44,7 @@ def callback(message):
 
 if __name__ == '__main__':
     logging.getLogger().setLevel(logging.INFO)
-    schedule.every().minute.at(':00').do(pull_message, "your_project_id", "order_status_user_sub")
+    schedule.every().minute.at(':00').do(pull_message, "ada2025-450207", "order_status_user_sub")
     while True:
         schedule.run_pending()
         time.sleep(.1)
