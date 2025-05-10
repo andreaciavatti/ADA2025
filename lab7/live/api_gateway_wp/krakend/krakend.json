@@ -14,7 +14,7 @@
         ],
       "backend": [
         {
-          "url_pattern": "/v1/projects/Your_Project_ID/locations/us-central1/workflows/Your_Workflow_Name/executions",
+          "url_pattern": "/v1/projects/ada2025-450207/locations/us-central1/workflows/workflow-2/executions",
           "encoding": "json",
           "method": "POST",
           "host": [
@@ -33,7 +33,7 @@
         ],
       "backend": [
         {
-          "url_pattern": "/v1/projects/Your_Project_ID/locations/us-central1/workflows/Your_Workflow_Name/executions/{eid}",
+          "url_pattern": "/v1/projects/ada2025-450207/locations/us-central1/workflows/workflow-2/executions/{eid}",
           "encoding": "json",
           "method": "GET",
           "host": [
