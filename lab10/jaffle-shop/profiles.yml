@@ -4,7 +4,7 @@ jaffle-shop-bigquery-db:
     dev:
       type: bigquery
       method: oauth-secrets
-      project: your_project_id
+      project: ada2025-450207
       dataset: jaffle_shop
       threads: 2
       token: your_access_token
